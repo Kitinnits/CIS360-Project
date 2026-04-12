@@ -1,0 +1,37 @@
+﻿10.1007/s40747-025-02067-5,Data Name,DatasetURL,Method Key,Data Type,Collection Method,U2,SpatialCoverage,TemporalCoverage,Format,License,Provenance
+,,,,,,,,,,,
+10.1016/j.engappai.2023.106846,Parcel Locker Location data (5 locations) ,N/A,8b287a65-a0a5-4001-b6a2-a40ce4c88d8a,Numerical,"Includes 4 criteria levels (traffic impact, security, reliability, and accessibility). Five locations were selected as the most suitable for the logistics requirements. Criteria weights and alternative rankings were computed through hybrid aggregation operators.",How do you measure reliability? How do you measure accessibility? These criterias are subjective. Potential bias in expert opinion and locations selected. ,"Dublin, Ireland",November 2022.,N/A,N/A,Data collected by experts in the related field.
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+10.1016/j.compag.2023.108186,RGB - NIR Image dataset,N/A,b2cde75d-f33d-4a05-b5c5-c626600ed09e,Images,"One RGB camera and one NIR camera, which were fixed to a handheld support. The distance between the camera and the tomato plant was kept in the range of 500–800 mm. 738 RGB images and 738 NIR images were used. ",What time of the year were these pictures taken and did that impact the collection data? Taken in a controlled greenhouse which can affect results. Could be slight differences in cameras that aren't accounted for. ,China,N/A,JPEG,N/A,Data collected by Beijing Key Laboratory of Agricultural Intelligent Equipment Technology
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+10.1016/j.buildenv.2023.110652,Central heating system dataset,N/A,e87cb912-14c8-4814-9408-f0a976ff0571,Numerical and temporal,The operation data for system variables and control signals were recorded per minute and the total heating consumptions were metered hourly using the BAS. ,The white-box model lacked accuracy. Sensors used for the data could have inaccuracies. Data was exclusive to one apartment complex so may not be applicable to all locations. ,South Korea,December 2019 to March 2020,N/A,N/A,Data collected by article’s research authors. Published in a peer-reviewed journal.
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+10.1016/j.aei.2023.102123,ATCO fatigue dataset,N/A,0215e928-cb54-423a-8406-128b29c3f103,Numerical,"28 subjects, all over 21. Data collection would only be conducted until the subjects achieved an accuracy of 90% during the training process. Performed one-hour air traffic control tasks using a simulator. Signals were captured via a wireless EEG headset and a infrared eye tracker.",Notes potential time lag in eye-tracking data that can lead to incorrect infinite speed calculations. The Samn-Perelli scale is a subjective rating.,Singapore,Each subject was tested for 2 hours. Occurred before 2023. ,N/A,N/A,The study was approved by the Institutional Review Board of Nanyang Technological University.
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+10.1016/j.aei.2023.102120,CMAPSS,https://www.nasa.gov/intelligent-systems-division/,d38347a0-f488-44c6-8084-b252e3075297,Sensor temporal ,Simulate the real degradation. Executed on a computer environment with one Intel (R) Core using python. Data sampled per operational cycle until failure under predefined degradation pattern.,Fully simulated dataset. Degradation trajectories are simplified and may not reflect real-world failures. Should not be trusted by itself. ,China,N/A,CSV,Public,Data collected by NASA
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+10.1016/j.aei.2023.102120,N-CMAPSS DS02,https://www.nasa.gov/intelligent-systems-division/,d38347a0-f488-44c6-8084-b252e3075297,Sensor temporal ,Simulate the real degradation. Executed on a computer environment with one Intel (R) Core using python. Includes multiple failure modes and more realistic operational variability.,"Although more realistic than CMAPSS, data is still simulated. Sensor noise and degradation are model-based approximations of real engines.",China,N/A,CSV,Public,Data collected by NASA
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,

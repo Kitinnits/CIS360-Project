@@ -1,0 +1,32 @@
+﻿Method Name,Method Key,DOI,Description,U1 ,U3
+Aczel-Alsina operations in DH -ROF,8b287a65-a0a5-4001-b6a2-a40ce4c88d8a,10.1016/j.engappai.2023.106846,Hybrid aggregation operators based on Aczel-Alsina operations are introduced.,"Definition for group is not catching the real world heterogenory. What is a locker, etc. ","The fact that the unknown weights of the DMs or criteria are not taken into account is a limitation of the proposed study. Also, consensus of the group decision making has not been considered in this study."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Multimodal hierarchical fusion method,b2cde75d-f33d-4a05-b5c5-c626600ed09e,10.1016/j.compag.2023.108186,Uses a parallel attention mechanism to perform a hierarchical fusion of different backbone networks at the C3–C5 feature layers to enhance the fusion effects of multimodal features.,Assumes a fixed transformation between RGB and NIR cameras. Ignores outside factors such as mechanical vibration and greenhouse movement. ,"This study has a large sample size which helps with reliability. One downside is that no confidence intervals were given for precison, recall, and mAP. Overall lack of statistical significance testing."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+In situ model fusion ,e87cb912-14c8-4814-9408-f0a976ff0571,10.1016/j.buildenv.2023.110652,"Techniques to enable the new model construction, higher-level model extension, and their verification and calibration by fusing individual prediction models and the prediction and benchmark models available under the limited digital twinning environment to establish the full digital twin environment over the building life cycle.",Only tests at one site. Agricultural environments vary significantly which is why we need multiple testing sites. Acknowledges there can be sensor errors and faults in operations. ,Assumes that the reference benchmark model and all input variables for the prediction and benchmark models are reliable. Does not include confidence intervals. Small sample size which makes it harder to generalize. 
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+RecMF,0215e928-cb54-423a-8406-128b29c3f103,10.1016/j.aei.2023.102123,"Incorporates multi-sensor information fusion to enhance the performance of MF detection. Also, employs an attention-enabled CNN-LSTM architecture that simultaneously captures time-series feature representations of electroencephalogram (EEG) signals and eye movements.","Completing these tasks at a computer versus an actual airport can affect the results. It's assumed EEG and eye-movement features are synchronously aligned. However, EG and eye dynamics may operate at different physiological timescales.","Limited generalization evidence due to smaller sample (28 people). Gives confidence intervals and p-value for each model, but there is no statistical significance testing between models."
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Spatial–temporal Dual-channel Adaptive Graph Convolutional Network (SDAGCN),d38347a0-f488-44c6-8084-b252e3075297,10.1016/j.aei.2023.102120,"Based on the Global_ST and Local_ST modules, which adaptively capture hidden spatial correlations along the local and global time axis and heterogeneities. ","This paper uses simulated engine datasets, which model degradation and sensor behavior under controlled conditions. However, this brings uncertainty because simulated degradation patterns may not fully reflect the complex behaviors of real aircraft engines. As a result, the model may learn patterns that generalize well to synthetic data but perform differently in real-world scenarios.","This study does not provide confidence intervals or statistical significance measures which brings uncertainty regarding the reliability of the results. Metrics given: mae (mean average error) and rmse (root mean square error). Also, does not account for worst case error. "
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
