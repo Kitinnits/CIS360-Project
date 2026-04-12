@@ -1,0 +1,25 @@
+﻿Paper Title,Dataset Name,Method Name,Uncertainty Type,Description
+Infrared–Visible Image Fusion using FTF,TNO Image Fusion Dataset,Fuzzy Feature Transfer (FTF),U2,Sensor noise and image quality differences between infrared and visible images can affect fusion results.
+Infrared–Visible Image Fusion using FTF,Infrared Sensor Images,Fuzzy Lifting + Feature Transfer,U2,Thermal sensor measurements may contain noise and varying radiation intensity.
+Infrared–Visible Image Fusion using FTF,Visible Light Images,Multi‑scale Fusion Processing,U2,Lighting conditions and environmental variability affect image capture.
+Structural Fusion of Bayesian Networks,Synthetic DAG datasets,GES‑based BN Fusion,U3,Fusion algorithm relies on heuristic search and ordering assumptions which introduce model uncertainty.
+Structural Fusion of Bayesian Networks,Bootstrapped Bayesian Networks,Consensus DAG Construction,U3,Combining multiple learned networks may introduce structural ambiguity.
+Structural Fusion of Bayesian Networks,City Sales Bayesian Networks,Bayesian Network Aggregation,U3,Different datasets or experts may produce conflicting probabilistic structures.
+Ontology for Occupant Behavior Modeling,ASHRAE Thermal Comfort Database,Occupant Behavior Ontology,U1,Conceptual definitions of occupant behavior may be incomplete or simplified.
+Ontology for Occupant Behavior Modeling,Synthetic Occupant Population Models,Ontology Integration,U1,Human behavior concepts are difficult to fully represent in formal ontology structures.
+Ontology for Occupant Behavior Modeling,Building Energy Simulation Data,Behavior‑Driven Modeling,U2,Energy usage measurements and occupant reports may be inconsistent or incomplete.
+Distributed Ontology Matching Framework,Conference Ontology Dataset,HLSOM Ontology Matching,U3,Heuristic similarity measures and probabilistic inference affect matching accuracy.
+Distributed Ontology Matching Framework,Anatomy Ontology Dataset,HLSOM + Probabilistic Logic,U3,Large ontology alignment requires probabilistic reasoning that may introduce mapping uncertainty.
+Distributed Ontology Matching Framework,OAEI Benchmark Ontologies,Distributed Hadoop Matching,U2,Distributed processing and heterogeneous datasets can introduce variability.
+Ontology Alignment System Evaluation,OAEI Conference Dataset,MAP Inference using Markov Logic,U3,Probabilistic inference determines most likely ontology mappings.
+Ontology Alignment System Evaluation,OAEI Anatomy Dataset,Integer Linear Programming Alignment,U3,Optimization methods approximate the best ontology correspondences.
+Scientific Knowledge Graph Integration,Multi‑source Research Papers,Knowledge Graph Extraction,U1,Concept extraction from text may miss or misinterpret relationships between scientific entities.
+A Novel Multi-Sensor Fusion Algorithm Based on Uncertainty Analysis,Multiphase flow sensor data,Multi-sensor fusion algorithm,U3,"Algorithm combines capacitance, cross-correlation, and pressure sensors to estimate flow with uncertainty modeling"
+A Novel Multi-Sensor Fusion Algorithm Based on Uncertainty Analysis,Capacitance tomography data,Monte Carlo uncertainty analysis,U2,Sensor measurements contain uncertainty due to capacitance measurement noise
+Multi-source Remote Sensing Data Fusion: Status and Trends,Satellite imagery (PAN + multispectral),Pixel-level image fusion,U2,Different spatial resolutions and sensor noise affect satellite measurements
+Multi-source Remote Sensing Data Fusion: Status and Trends,SAR and LiDAR remote sensing data,Feature-level fusion,U2,Sensor resolution differences introduce measurement uncertainty
+Multi-source Remote Sensing Data Fusion: Status and Trends,Optical remote sensing datasets,Decision-level fusion,U3,Algorithmic fusion of multiple classifiers may introduce analytical uncertainty
+Multi-Sensor Data Fusion for Accurate Traffic Speed and Travel Time Reconstruction,Loop detector traffic data,Traffic speed reconstruction fusion,U2,Traffic sensors may have missing data or measurement noise
+Multi-Sensor Data Fusion for Accurate Traffic Speed and Travel Time Reconstruction,Floating car GPS data,Traffic state estimation fusion,U2,GPS sampling and incomplete vehicle coverage introduce uncertainty
+Multi-Sensor Data Fusion for Accurate Traffic Speed and Travel Time Reconstruction,Bluetooth travel time sensors,Traffic data fusion algorithm,U2,Bluetooth detection spacing introduces measurement limitations
+Multi-Sensor Data Fusion for Accurate Traffic Speed and Travel Time Reconstruction,Combined traffic sensor datasets,Adaptive smoothing fusion,U3,Fusion model assumptions influence reconstructed traffic speed accuracy
